@@ -42,11 +42,11 @@
   display: block;
   width: 148px;
   height: 105px;
-  text-align: center;
+  margin-left: 4px;
 }
 
 .header__logo-image {
-  width: 92%;
+
 }
 
 .address {
@@ -69,3 +69,66 @@
 
 /* main */
 
+.cover {
+  position: relative;
+  z-index: -1;
+  background-image: url(../images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  min-height: 757px;
+  padding: 165px 50px 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.overlay {
+  inset: 0;
+  z-index: -1;
+  position: absolute;
+  background-color: rgb(0 0 0 / 0.6);
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin-right: -31px;
+}
+
+.cover__title-word:first-child {
+  align-self: flex-start;
+}
+
+.cover__title-word:last-child {
+  align-self: flex-end;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  text-transform: uppercase;
+
+}
+
+.cover__description-text {
+  word-spacing: 0.85em;
+}
+
+.bet-button {
+  color: inherit;
+  padding: 12px 31px;
+  text-transform: inherit;
+  background: none;
+  border: 1px solid white;
+}
