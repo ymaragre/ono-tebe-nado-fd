@@ -137,6 +137,8 @@
   padding: 180px 24px;
 }
 
+/* lots */
+
 .lots {
   margin-bottom: 120px;
 }
@@ -205,4 +207,41 @@ font-size: 22px;
 .lots__look-more-link {
   margin-left: 40px;
   text-underline-offset: 4px;
+}
+
+/* about */
+
+.about {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  gap: 7px 25px;
+  padding-top: 34px;
+}
+
+.about__logo {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  width: 240px;
+  height: 240px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.about__logo-image {
+  width: 62%;
+}
+
+.about__title {
+  align-self: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.about__text {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
 }
