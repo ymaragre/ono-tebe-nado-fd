@@ -245,3 +245,51 @@ font-size: 22px;
   flex-direction: column;
   gap: 1.2em;
 }
+
+/* footer */
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 18px;
+  padding: 0 50px 82px;
+}
+
+.footer__menu {
+
+}
+
+.footer__menu-list {
+  list-style: none;
+}
+
+.footer__menu-list-item {
+  text-align: center;
+}
+
+.footer__menu-link {
+  text-underline-offset: 4px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-self: end;
+  list-style: none;
+  gap: 48px;
+}
+
+.footer__social-list-item {
+  width: 48px;
+}
+
+.footer__social-link {
+
+}
+
+.footer__social-icon{
+
+}
