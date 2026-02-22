@@ -24,7 +24,7 @@
 }
 
 .header__link {
-  text-underline-offset: 3px;
+  text-underline-offset: 4px;
 }
 
 /* отступ от маркера списка */
@@ -133,8 +133,12 @@
   border: 1px solid white;
 }
 
+.content {
+  padding: 180px 24px;
+}
+
 .lots {
-  margin: 180px 24px 0;
+  margin-bottom: 120px;
 }
 
 .lots__heading {
@@ -148,6 +152,7 @@
   display: flex;
   gap: 25px;
   list-style: none;
+  margin-bottom: 30px;
 }
 
 .lots__card-list-item {
@@ -187,7 +192,8 @@
 }
 
 .card__title {
-/*  text-decoration: 1px solid white;*/
+text-decoration: underline 1px white;
+text-underline-offset: 3px;
 text-transform: uppercase;
 font-size: 22px;
 }
@@ -197,5 +203,6 @@ font-size: 22px;
 }
 
 .lots__look-more-link {
-
+  margin-left: 40px;
+  text-underline-offset: 4px;
 }
