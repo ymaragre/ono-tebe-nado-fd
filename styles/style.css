@@ -215,7 +215,7 @@ text-transform: uppercase;
 
 .about__title {
   align-self: center;
-  margin-top: 9px;
+  margin: 100px 0;
   font-size: 40px;
   text-transform: uppercase;
 }
@@ -223,7 +223,6 @@ text-transform: uppercase;
 .about__text {
   display: flex;
   flex-direction: column;
-  grid-column: 2;
   gap: 1.2em;
 }
 
