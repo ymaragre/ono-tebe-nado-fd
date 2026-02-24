@@ -61,7 +61,6 @@
   flex-direction: column;
   justify-content: space-between;
   min-height: 757px;
-  margin-bottom: 103px;
   padding: 165px 50px 50px;
   color: white;
   background-color: #bb33ff;
@@ -126,11 +125,11 @@
   background: none;
 }
 
-.main__section {
-  padding: 77px 24px;
-}
-
 /* lots */
+
+.lots {
+  padding: 180px 24px 77px;
+}
 
 .lots__heading {
   margin-bottom: 26px;
@@ -200,6 +199,7 @@ text-transform: uppercase;
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 8px 25px;
+  padding: 77px 24px 180px;
 }
 
 .about__logo {
@@ -231,8 +231,7 @@ text-transform: uppercase;
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 103px;
-  padding: 0 50px 82px;
+  padding: 1px 50px 82px;
   font-size: 18px;
 }
 
