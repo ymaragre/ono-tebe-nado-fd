@@ -22,10 +22,6 @@
   list-style: none;
 }
 
-.header__link {
-  text-underline-offset: 4px;
-}
-
 .menu-link_active {
   text-decoration: none;
 }
@@ -45,7 +41,6 @@
   max-width: 240px;
   font-style: normal;
   line-height: 1.3;
-  text-underline-offset: 4px;
 }
 
 .header__address {
@@ -190,7 +185,6 @@ text-transform: uppercase;
 
 .lots__look-more-link {
   margin-left: 40px;
-  text-underline-offset: 4px;
 }
 
 /* about */
@@ -241,10 +235,6 @@ text-transform: uppercase;
 
 .footer__menu-list-item {
   text-align: center;
-}
-
-.footer__menu-link {
-  text-underline-offset: 4px;
 }
 
 .footer__social-list {

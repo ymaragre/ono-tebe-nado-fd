@@ -8,6 +8,7 @@ body {
   width: 1100px;
   margin: 0 auto;
   font: 20px / 1.2 Raleway, Arial, sans-serif;
+  text-underline-offset: 4px;
 }
 
 h1,
